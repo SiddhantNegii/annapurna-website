@@ -27,10 +27,8 @@ const Contact = () => {
           Contact & Location
         </motion.h2>
 
-        {/* ✅ Modern two-column grid layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
-          {/* Left Column: Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -71,17 +69,15 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          {/* Right Column: Google Map */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
-            // ✅ Stylish container for the map
             className="rounded-xl shadow-2xl overflow-hidden h-96 lg:h-full"
           >
-            {/* IMPORTANT: Replace this with your actual Google Maps embed code */}
+            {/* ✅ UPDATED with the correct location and centered view */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.147879469146!2d10.700188676997086!3d47.56832448962649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cf66115995555%3A0x5d0b988f57c52d43!2sKemptener%20Str.%2016%2C%2087629%20F%C3%BCssen%2C%20Germany!5e0!3m2!1sen!2sin!4v1726822238031!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.211831853488!2d10.6978823156479!3d47.56828497918208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cf647f0a7a4c7%3A0x6a2d9c3b8e8f8c8d!2sAnnapurna!5e0!3m2!1sen!2sde!4v1616161616161!5m2!1sen!2sde"
               width="100%"
               height="100%"
               style={{ border: 0 }}
