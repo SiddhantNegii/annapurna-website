@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "A Taste of India in the Heart of Germany",
+    "button": "View Menu"
+  },
+  "about": {
+    "title": "Our Story",
+    "text": "Nestled in the charming town of Füssen, Annapurna Indisches Restaurant offers an exquisite taste of Indian cuisine that captivates both locals and tourists alike. With its welcoming ambiance and rich decor inspired by Indian culture, the restaurant creates an inviting space for diners to relax and enjoy their meals. Guests can indulge in a variety of traditional dishes prepared with authentic spices and fresh ingredients, showcasing the diverse culinary heritage of India.\n\nThe menu features an array of flavorful options, from aromatic curries to freshly baked naan bread, catering to all palates including vegetarian and vegan selections. The restaurant prides itself on providing an exceptional dining experience, ensuring that each dish is crafted with care and served with a smile. The attentive staff are always ready to assist diners in selecting the perfect meal or recommending wine pairings.\n\nBeyond the delicious food, Annapurna Indisches Restaurant is strategically located near popular attractions in Füssen, making it a convenient stop for travelers exploring the area. Whether you're enjoying a leisurely lunch after sightseeing or savoring dinner before heading out to experience Füssen's vibrant nightlife, this restaurant promises a delightful culinary escape that will leave you wanting more."
+  },
+  "contact": {
+    "title": "Contact & Location",
+    "address": "Kemptener Str. 16, Füssen, 87629, DE",
+    "phone": "+4983628836943",
+    "visit_us": "Visit Us"
+  }
+}

@@ -1,0 +1,50 @@
+/*
+  Updated:
+  - Defined CSS variables for a consistent color palette and typography.
+  - Added global body styles to apply fonts and colors across the site.
+  - The old boilerplate code has been removed.
+*/
+
+:root {
+  --primary-color: #8b0000; /* Richer red/maroon for brand accents */
+  --secondary-color: #f7d58f; /* Deep gold or cream for a warm touch */
+  --cta-color: #ffd700; /* Bright gold for calls-to-action */
+  --text-dark: #333;
+  --text-light: #f5f5f5;
+  --font-serif: 'Playfair Display', serif; /* A more elegant and readable serif font */
+  --font-sans: 'Montserrat', sans-serif; /* A clean, modern sans-serif font */
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-sans);
+  color: var(--text-dark);
+  background-color: var(--text-light);
+  line-height: 1.6;
+}
+
+#root {
+  /* Using Tailwind's 'container' class equivalent for centering */
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* You will need to add a Tailwind class `font-serif` to your text to use the serif font */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.bg-gold {
+  background-color: var(--cta-color);
+}
+
+.text-cream {
+  color: var(--secondary-color);
+}
+
+/* Helper class for text shadow */
+.drop-shadow-lg {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Removed old boilerplate styles for logos, cards, etc. */

@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "menu": "Speisekarte",
+    "gallery": "Galerie",
+    "about": "Über Uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Ein Stück Indien im Herzen Deutschlands",
+    "button": "Speisekarte ansehen"
+  },
+  "about": {
+    "title": "Unsere Geschichte",
+    "text": "Eingebettet in der charmanten Stadt Füssen bietet das Annapurna Indisches Restaurant einen exquisiten Geschmack der indischen Küche, der Einheimische und Touristen gleichermaßen begeistert. Mit seiner einladenden Atmosphäre und der reichhaltigen, von der indischen Kultur inspirierten Dekoration schafft das Restaurant einen einladenden Raum, in dem die Gäste entspannen und ihre Mahlzeiten genießen können. Gäste können sich an einer Vielzahl traditioneller Gerichte erfreuen, die mit authentischen Gewürzen und frischen Zutaten zubereitet werden und das vielfältige kulinarische Erbe Indiens zeigen.\n\nDie Speisekarte bietet eine Auswahl an schmackhaften Optionen, von aromatischen Currys bis zu frisch gebackenem Naan-Brot, und ist für alle Gaumen geeignet, einschließlich vegetarischer und veganer Optionen. Das Restaurant ist stolz darauf, ein außergewöhnliches Speiseerlebnis zu bieten, bei dem jedes Gericht mit Sorgfalt zubereitet und mit einem Lächeln serviert wird. Das aufmerksame Personal steht den Gästen jederzeit zur Verfügung, um ihnen bei der Auswahl des perfekten Essens oder der Empfehlung passender Weine zu helfen.\n\nNeben dem köstlichen Essen liegt das Annapurna Indisches Restaurant strategisch günstig in der Nähe beliebter Sehenswürdigkeiten in Füssen, was es zu einem bequemen Zwischenstopp für Reisende macht, die die Gegend erkunden. Ob Sie ein entspanntes Mittagessen nach dem Sightseeing genießen oder ein Abendessen vor dem Eintauchen in das pulsierende Nachtleben von Füssen, dieses Restaurant verspricht eine herrliche kulinarische Flucht, die Lust auf mehr macht."
+  },
+  "contact": {
+    "title": "Kontakt & Standort",
+    "address": "Kemptener Str. 16, Füssen, 87629, DE",
+    "phone": "+4983628836943",
+    "visit_us": "Besuchen Sie uns"
+  }
+}

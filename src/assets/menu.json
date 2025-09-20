@@ -1,0 +1,226 @@
+{
+  "categories": [
+    {
+      "name_en": "Appetizers",
+      "name_de": "Vorspeisen",
+      "subtitle_en": "with yogurt mint sauce and mango chutney",
+      "subtitle_de": "mit Joghurt-Minz-Sauce und Mango-Chutney",
+      "dishes": [
+        { "name_en": "Dilli Chana Chaat", "name_de": "Dilli Chana Chaat", "description_en": "Chickpeas with tomatoes and onions", "description_de": "Kichererbsen mit Tomaten und Zwiebeln", "price": "€6.90" },
+        { "name_en": "Murg Chaat", "name_de": "Murg Chaat", "description_en": "Grilled chicken strips with tomatoes and onions (spicy)", "description_de": "Gegrillte Hähnchenstreifen mit Tomaten und Zwiebeln (scharf)", "price": "€8.50", "spicy": true },
+        { "name_en": "Vegetables Pakora", "name_de": "Gemüse Pakora", "description_en": "Vegetables baked in chickpea flour", "description_de": "In Kichererbsenmehl gebackenes Gemüse", "price": "€7.50", "vegetarian": true },
+        { "name_en": "Murg Pakora", "name_de": "Murg Pakora", "description_en": "Chicken breast fillet baked in chickpea flour", "description_de": "In Kichererbsenmehl gebackenes Hähnchenbrustfilet", "price": "€8.50" },
+        { "name_en": "Samosas", "name_de": "Samosas", "description_en": "Pate filled with various vegetables", "description_de": "Pastete gefüllt mit verschiedenen Gemüsesorten", "price": "€7.50", "vegetarian": true },
+        { "name_en": "Amritsari fish pakora", "name_de": "Amritsari Fisch-Pakora", "description_en": "Crispy, breaded fish", "description_de": "Knuspriger, panierter Fisch", "price": "€8.50" },
+        { "name_en": "Mixed starters for 2 people", "name_de": "Gemischte Vorspeisen für 2 Personen", "description_en": null, "description_de": null, "price": "€13.50" },
+        { "name_en": "Kachumber Pakora", "name_de": "Kachumber Pakora", "description_en": "Vegetables baked in chickpea flour", "description_de": "In Kichererbsenmehl gebackenes Gemüse", "price": "€7.50", "vegetarian": true },
+        { "name_en": "Papdi Chat", "name_de": "Papdi Chat", "description_en": "Street food from North India", "description_de": "Street Food aus Nordindien", "price": "€8.50" },
+        { "name_en": "Paneer Pakora", "name_de": "Paneer Pakora", "description_en": "Homemade cheese baked in chickpea flour", "description_de": "Selbstgemachter Käse in Kichererbsenmehl gebacken", "price": "€7.50", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Soups",
+      "name_de": "Suppen",
+      "dishes": [
+        { "name_en": "Moong Dal Shorba", "name_de": "Moong Dal Shorba", "description_en": "Lentil soup", "description_de": "Linsensuppe", "price": "€5.90", "vegetarian": true },
+        { "name_en": "Murg Shorba", "name_de": "Murg Shorba", "description_en": "Chicken cream soup", "description_de": "Hähnchen-Cremesuppe", "price": "€5.90" },
+        { "name_en": "Sabzi Shorba", "name_de": "Sabzi Shorba", "description_en": "Vegetable soup", "description_de": "Gemüsesuppe", "price": "€5.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Salads",
+      "name_de": "Salate",
+      "dishes": [
+        { "name_en": "Mixed salad", "name_de": "Gemischter Salat", "description_en": "Summer salad with house dressing", "description_de": "Sommersalat mit hausgemachtem Dressing", "price": "€5.90", "vegetarian": true },
+        { "name_en": "Desi salad", "name_de": "Desi Salat", "description_en": "Summer salad with red onions and savory masala dressing", "description_de": "Sommersalat mit roten Zwiebeln und herzhaftem Masala-Dressing", "price": "€6.90", "vegetarian": true },
+        { "name_en": "Murg salad", "name_de": "Murg Salat", "description_en": "Summer salad with house dressing and chicken breast fillet", "description_de": "Sommersalat mit hausgemachtem Dressing und Hähnchenbrustfilet", "price": "€8.90" },
+        { "name_en": "Kheera Raita Salad", "name_de": "Kheera Raita Salat", "description_en": "Yogurt with cucumbers, finely seasoned", "description_de": "Joghurt mit Gurken, fein gewürzt", "price": "€4.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Chicken",
+      "name_de": "Hähnchen",
+      "subtitle_en": "with basmati rice",
+      "subtitle_de": "mit Basmatireis",
+      "dishes": [
+        { "name_en": "Punjabi Chicken Curry", "name_de": "Punjabi Hähnchen-Curry", "description_en": "Chicken in curry sauce", "description_de": "Hähnchen in Curry-Sauce", "price": "€17.90" },
+        { "name_en": "Murg Badam Pasanda", "name_de": "Murg Badam Pasanda", "description_en": "Chicken in cashew nut sauce", "description_de": "Hähnchen in Cashewnuss-Sauce", "price": "€17.90" },
+        { "name_en": "Karahi Murg", "name_de": "Karahi Murg", "description_en": "Chicken with tomatoes, peppers and curry sauce", "description_de": "Hähnchen mit Tomaten, Paprika und Curry-Sauce", "price": "€17.90" },
+        { "name_en": "Chicken Tikka Sabzi", "name_de": "Hähnchen Tikka Sabzi", "description_en": "Chicken with vegetables in Masala", "description_de": "Hähnchen mit Gemüse in Masala", "price": "€17.90" },
+        { "name_en": "Murg Vindaloo", "name_de": "Murg Vindaloo", "description_en": "with special spices (very spicy)", "description_de": "mit besonderen Gewürzen (sehr scharf)", "price": "€17.90", "spicy": true },
+        { "name_en": "Murg Makhni", "name_de": "Murg Makhni", "description_en": "Chicken fillet from the clay oven in butter tomato sauce", "description_de": "Hähnchenfilet aus dem Tandoor-Ofen in Butter-Tomaten-Sauce", "price": "€17.90" },
+        { "name_en": "Chicken Saag", "name_de": "Hähnchen Saag", "description_en": "Punjabi style chicken fillet with spinach", "description_de": "Hähnchenfilet nach Punjabi-Art mit Spinat", "price": "€17.90" },
+        { "name_en": "Mango Chicken", "name_de": "Mango Hähnchen", "description_en": "Chicken fillet in mango cashew nut sauce", "description_de": "Hähnchenfilet in Mango-Cashewnuss-Sauce", "price": "€17.90" }
+      ]
+    },
+    {
+      "name_en": "Lamb",
+      "name_de": "Lamm",
+      "subtitle_en": "with basmati rice",
+      "subtitle_de": "mit Basmatireis",
+      "dishes": [
+        { "name_en": "Mutton Rogan Josh", "name_de": "Hammelfleisch Rogan Josh", "description_en": "Lamb in curry sauce", "description_de": "Lamm in Curry-Sauce", "price": "€18.90" },
+        { "name_en": "Maghlai Meat", "name_de": "Maghlai Fleisch", "description_en": "Lamb in cashew cream sauce", "description_de": "Lamm in Cashew-Creme-Sauce", "price": "€18.90" },
+        { "name_en": "Bhunna Ghost", "name_de": "Bhunna Ghost", "description_en": "Lamb with tomatoes, fried onions and strong sauce", "description_de": "Lamm mit Tomaten, gebratenen Zwiebeln und kräftiger Sauce", "price": "€18.90" },
+        { "name_en": "Saag Ghost", "name_de": "Saag Ghost", "description_en": "Lamb with spinach", "description_de": "Lamm mit Spinat", "price": "€18.90", "spicy": true },
+        { "name_en": "Mutton Vindaloo", "name_de": "Lamm Vindaloo", "description_en": "Lamb with special spices (very spicy)", "description_de": "Lamm mit besonderen Gewürzen (sehr scharf)", "price": "€18.90", "spicy": true },
+        { "name_en": "Lamb Boti Masala", "name_de": "Lamm Boti Masala", "description_en": "Tandoori lamb fillet in masala sauce", "description_de": "Tandoori-Lammfilet in Masala-Sauce", "price": "€18.90" }
+      ]
+    },
+    {
+      "name_en": "Vegetarian",
+      "name_de": "Vegetarisch",
+      "subtitle_en": "with basmati rice",
+      "subtitle_de": "mit Basmatireis",
+      "dishes": [
+        { "name_en": "Dal Makhni", "name_de": "Dal Makhni", "description_en": "Black lenses", "description_de": "Schwarze Linsen", "price": "€15.90", "vegetarian": true },
+        { "name_en": "Mix Vegetable", "name_de": "Gemüse-Mix", "description_en": "Indian style vegetables", "description_de": "Gemüse nach indischer Art", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Saag Paneer", "name_de": "Saag Paneer", "description_en": "Spinach with homemade cheese", "description_de": "Spinat mit hausgemachtem Käse", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Tawa Paneer", "name_de": "Tawa Paneer", "description_en": "Cheese in pepper onion sauce", "description_de": "Käse in Paprika-Zwiebel-Sauce", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Shahi Paneer", "name_de": "Shahi Paneer", "description_en": "Cheese in butter and tomato cream sauce", "description_de": "Käse in Butter- und Tomatencreme-Sauce", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Sabzi Kofta", "name_de": "Sabzi Kofta", "description_en": "Vegetable dumplings in curry sauce", "description_de": "Gemüseknödel in Curry-Sauce", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Chana Masala", "name_de": "Chana Masala", "description_en": "Chickpeas in tomato and onion masala sauce", "description_de": "Kichererbsen in Tomaten- und Zwiebel-Masala-Sauce", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Baingan Ka Bharta", "name_de": "Baingan Ka Bharta", "description_en": "Eggplants pureed with tomatoes and onions, strongly seasoned", "description_de": "Auberginenpüree mit Tomaten und Zwiebeln, stark gewürzt", "price": "€16.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Rice",
+      "name_de": "Reis",
+      "subtitle_en": "with Raita",
+      "subtitle_de": "mit Raita",
+      "dishes": [
+        { "name_en": "Hyderabadi Murg Biryani", "name_de": "Hyderabadi Murg Biryani", "description_en": "Fried rice with chicken, nuts and fried onions", "description_de": "Gebratener Reis mit Hähnchen, Nüssen und Röstzwiebeln", "price": "€17.90" },
+        { "name_en": "Lakhnawi Lamb Biryani", "name_de": "Lakhnawi Lamm Biryani", "description_en": "Fried rice with lamb, nuts and fried onions", "description_de": "Gebratener Reis mit Lamm, Nüssen und Röstzwiebeln", "price": "€18.90" },
+        { "name_en": "Bombay Jheenga Biryani", "name_de": "Bombay Jheenga Biryani", "description_en": "Fried rice with king prawns, nuts and fried onions", "description_de": "Gebratener Reis mit Riesengarnelen, Nüssen und Röstzwiebeln", "price": "€20.90" },
+        { "name_en": "Dilli Vegetable Biryani", "name_de": "Dilli Gemüse Biryani", "description_en": "Fried rice with vegetables, nuts and fried onions", "description_de": "Gebratener Reis mit Gemüse, Nüssen und Röstzwiebeln", "price": "€16.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Fish",
+      "name_de": "Fisch",
+      "subtitle_en": "with basmati rice",
+      "subtitle_de": "mit Basmatireis",
+      "dishes": [
+        { "name_en": "Fish Chutneywala", "name_de": "Fisch Chutneywala", "description_en": "Pollock fillet with coconut, mint, green chili, coriander and ginger", "description_de": "Seelachsfilet mit Kokos, Minze, grünem Chili, Koriander und Ingwer", "price": "€18.90" },
+        { "name_en": "Chili fish", "name_de": "Chili-Fisch", "description_en": "Redfish fillet in chili sauce (spicy)", "description_de": "Rotbarschfilet in Chili-Sauce (scharf)", "price": "€18.90", "spicy": true },
+        { "name_en": "Fish Madras", "name_de": "Fisch Madras", "description_en": "Redfish fillet with coconut milk (spicy)", "description_de": "Rotbarschfilet mit Kokosmilch (scharf)", "price": "€18.90", "spicy": true },
+        { "name_en": "Amritsari Jheenga", "name_de": "Amritsari Jheenga", "description_en": "King prawns fried with vegetables, herbs and spices", "description_de": "Riesengarnelen gebraten mit Gemüse, Kräutern und Gewürzen", "price": "€21.90" },
+        { "name_en": "Mango Jheenga", "name_de": "Mango Jheenga", "description_en": "King prawns with mango and cashew nut sauce", "description_de": "Riesengarnelen mit Mango- und Cashewnuss-Sauce", "price": "€21.90" }
+      ]
+    },
+    {
+      "name_en": "Tandoori",
+      "name_de": "Tandoori",
+      "subtitle_en": "With basmati rice, naan, vegetables and sauce",
+      "subtitle_de": "Mit Basmatireis, Naan, Gemüse und Sauce",
+      "dishes": [
+        { "name_en": "Tandoori Chicken", "name_de": "Tandoori Hähnchen", "description_en": "Chicken legs with spices", "description_de": "Hähnchenkeulen mit Gewürzen", "price": "€20.90" },
+        { "name_en": "Chicken Tikka", "name_de": "Hähnchen Tikka", "description_en": "Chicken breast fillet marinated in spices", "description_de": "Hähnchenbrustfilet in Gewürzen mariniert", "price": "€20.90" },
+        { "name_en": "Hariyali Murgh Tikka", "name_de": "Hariyali Murgh Tikka", "description_en": "Chicken breast fillet marinated with mint, yogurt, ginger and spinach", "description_de": "Hähnchenbrustfilet mariniert mit Minze, Joghurt, Ingwer und Spinat", "price": "€20.90" },
+        { "name_en": "Botti Tikka", "name_de": "Botti Tikka", "description_en": "marinated, grilled lamb fillet", "description_de": "mariniertes, gegrilltes Lammfilet", "price": "€22.90" },
+        { "name_en": "Tandoori Machli", "name_de": "Tandoori Machli", "description_en": "Grilled pollock fillet marinated in yogurt and spices", "description_de": "Gegrilltes Seelachsfilet in Joghurt und Gewürzen mariniert", "price": "€20.90" },
+        { "name_en": "Badshahi Jheenga", "name_de": "Badshahi Jheenga", "description_en": "marinated, grilled king prawns with vegetables", "description_de": "marinierte, gegrillte Riesengarnelen mit Gemüse", "price": "€23.90" },
+        { "name_en": "Mix grill plate", "name_de": "Gemischte Grillplatte", "description_en": "With lamb, chicken and king prawns", "description_de": "Mit Lamm, Hähnchen und Riesengarnelen", "price": "€22.90" },
+        { "name_en": "Aachari Murgh Tikka", "name_de": "Aachari Murgh Tikka", "description_en": "Chicken breast fillet marinated with spices", "description_de": "Hähnchenbrustfilet mariniert mit Gewürzen", "price": "€20.90" }
+      ]
+    },
+    {
+      "name_en": "Tandoori bread",
+      "name_de": "Tandoori Brot",
+      "dishes": [
+        { "name_en": "Garlic Naan", "name_de": "Knoblauch-Naan", "description_en": "Yeast dough bread with garlic", "description_de": "Hefeteigbrot mit Knoblauch", "price": "€3.90", "vegetarian": true },
+        { "name_en": "Butter Naan", "name_de": "Butter-Naan", "description_en": "Yeast dough bread with butter", "description_de": "Hefeteigbrot mit Butter", "price": "€3.90", "vegetarian": true },
+        { "name_en": "Roti", "name_de": "Roti", "description_en": "Wholemeal flatbread", "description_de": "Vollkorn-Fladenbrot", "price": "€3.00", "vegetarian": true },
+        { "name_en": "2 Pappad", "name_de": "2 Pappad", "description_en": "Lentil waffles with dips", "description_de": "Linsenwaffeln mit Dips", "price": "€3.00", "vegetarian": true },
+        { "name_en": "Vegetables Parantha", "name_de": "Gemüse Parantha", "description_en": "Whole grain bread filled with vegetables", "description_de": "Vollkornbrot gefüllt mit Gemüse", "price": "€4.50", "vegetarian": true },
+        { "name_en": "Naan", "name_de": "Naan", "description_en": "Oval bread made from yeast dough", "description_de": "Ovales Brot aus Hefeteig", "price": "€3.50", "vegetarian": true },
+        { "name_en": "Parantha", "name_de": "Parantha", "description_en": "Wholemeal flatbread with butter", "description_de": "Vollkornfladenbrot mit Butter", "price": "€3.90", "vegetarian": true },
+        { "name_en": "Mint Parantha", "name_de": "Minze Parantha", "description_en": "Wholemeal bread with mint", "description_de": "Vollkornbrot mit Minze", "price": "€4.50", "vegetarian": true },
+        { "name_en": "Vegetables Parantha", "name_de": "Gemüse Parantha", "description_en": "stuffed with vegetables", "description_de": "gefüllt mit Gemüse", "price": "€4.50", "vegetarian": true },
+        { "name_en": "Peshawari Naan", "name_de": "Peshawari Naan", "description_en": "Yeast dough bread filled with chicken and nuts", "description_de": "Hefeteigbrot gefüllt mit Hähnchen und Nüssen", "price": "€4.90" }
+      ]
+    },
+    {
+      "name_en": "Delicacies",
+      "name_de": "Spezialitäten",
+      "subtitle_en": "with basmati rice",
+      "subtitle_de": "mit Basmatireis",
+      "dishes": [
+        { "name_en": "Sabzi Jaipuri", "name_de": "Sabzi Jaipuri", "description_en": "Vegetables with cashews and coconut sauce", "description_de": "Gemüse mit Cashewnüssen und Kokos-Sauce", "price": "€16.90", "vegetarian": true },
+        { "name_en": "Fish curry special", "name_de": "Fisch-Curry-Spezial", "description_en": "Breaded fish fillet with sauce and fried onions", "description_de": "Paniertes Fischfilet mit Sauce und Röstzwiebeln", "price": "€18.90" },
+        { "name_en": "Chili Chicken", "name_de": "Chili Hähnchen", "description_en": "Chicken breast fillet with Indian chili sauce (spicy)", "description_de": "Hähnchenbrustfilet mit indischer Chili-Sauce (scharf)", "price": "€17.90", "spicy": true },
+        { "name_en": "Lamb Nilgiri", "name_de": "Lamm Nilgiri", "description_en": "Lamb with coriander, mint, herbs, coconut milk and spinach", "description_de": "Lamm mit Koriander, Minze, Kräutern, Kokosmilch und Spinat", "price": "€18.90" },
+        { "name_en": "Duck Mango Crispy", "name_de": "Ente Mango Knusprig", "description_en": "Duck breast fillet with mango and cashew nut sauce", "description_de": "Entenbrustfilet mit Mango- und Cashewnuss-Sauce", "price": "€19.90" },
+        { "name_en": "Duck chili crispy", "name_de": "Ente Chili Knusprig", "description_en": "Duck breast in chili sauce (spicy)", "description_de": "Entenbrust in Chili-Sauce (scharf)", "price": "€19.90", "spicy": true },
+        { "name_en": "Panir Korma", "name_de": "Panir Korma", "description_en": "Homemade cheese in a cashew nut sauce", "description_de": "Hausgemachter Käse in einer Cashewnuss-Sauce", "price": "€16.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Side dishes",
+      "name_de": "Beilagen",
+      "dishes": [
+        { "name_en": "Kheera Raita", "name_de": "Kheera Raita", "description_en": "Seasoned yogurt with cucumbers", "description_de": "Gewürzter Joghurt mit Gurken", "price": "€4.90", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Desserts",
+      "name_de": "Desserts",
+      "dishes": [
+        { "name_en": "Mango cream", "name_de": "Mangocreme", "description_en": "With vanilla ice cream", "description_de": "Mit Vanilleeis", "price": "€5.90", "vegetarian": true },
+        { "name_en": "Gulab jamun", "name_de": "Gulab Jamun", "description_en": "Fried quark balls soaked in sugar syrup", "description_de": "Frittierte Quarkbällchen in Zuckersirup getränkt", "price": "€5.50", "vegetarian": true },
+        { "name_en": "Baked banana with honey", "name_de": "Gebackene Banane mit Honig", "description_en": "With honey", "description_de": "Mit Honig", "price": "€5.50", "vegetarian": true },
+        { "name_en": "Baked pineapple with honey", "name_de": "Gebackene Ananas mit Honig", "description_en": "With honey", "description_de": "Mit Honig", "price": "€5.50", "vegetarian": true }
+      ]
+    },
+    {
+      "name_en": "Soft drinks",
+      "name_de": "Alkoholfreie Getränke",
+      "subtitle_en": "Drinks do not count towards the minimum order value",
+      "subtitle_de": "Getränke werden nicht auf den Mindestbestellwert angerechnet",
+      "dishes": [
+        { "name_en": "Mineral water 0.7l", "name_de": "Mineralwasser 0.7l", "description_en": null, "description_de": null, "price": "€3.60" },
+        { "name_en": "Still water 0.7l", "name_de": "Stilles Wasser 0.7l", "description_en": null, "description_de": null, "price": "€3.60" },
+        { "name_en": "Coca-Cola", "name_de": "Coca-Cola", "description_en": "Increased caffeine content. Not recommended for children, pregnant or breastfeeding women.", "description_de": "Erhöhter Koffeingehalt. Für Kinder, Schwangere oder stillende Frauen nicht empfohlen.", "price": "€3.60" },
+        { "name_en": "Coca-Cola light", "name_de": "Coca-Cola light", "description_en": null, "description_de": null, "price": "€3.60" },
+        { "name_en": "Fanta", "name_de": "Fanta", "description_en": null, "description_de": null, "price": "€3.60" },
+        { "name_en": "Mezzo Mix", "name_de": "Mezzo Mix", "description_en": "Increased caffeine content. Not recommended for children, pregnant or breastfeeding women.", "description_de": "Erhöhter Koffeingehalt. Für Kinder, Schwangere oder stillende Frauen nicht empfohlen.", "price": "€3.60" },
+        { "name_en": "Sprite", "name_de": "Sprite", "description_en": null, "description_de": null, "price": "€3.60" },
+        { "name_en": "Apple juice 1.0l", "name_de": "Apfelsaft 1.0l", "description_en": null, "description_de": null, "price": "€3.90" },
+        { "name_en": "Orange juice 1.0l", "name_de": "Orangensaft 1.0l", "description_en": null, "description_de": null, "price": "€3.90" },
+        { "name_en": "Maracuja juice 1.0l", "name_de": "Maracujasaft 1.0l", "description_en": null, "description_de": null, "price": "€3.90" },
+        { "name_en": "Currant juice 1.0l", "name_de": "Johannisbeersaft 1.0l", "description_en": null, "description_de": null, "price": "€3.90" },
+        { "name_en": "Panchy Mango Juice", "name_de": "Panchy Mangosaft", "description_en": null, "description_de": null, "price": "€3.90" },
+        { "name_en": "Mango Lassi 1.0l", "name_de": "Mango Lassi 1.0l", "description_en": null, "description_de": null, "price": "€8.50" },
+        { "name_en": "Jeera Lassi salty 1.0l", "name_de": "Jeera Lassi salzig 1.0l", "description_en": null, "description_de": null, "price": "€7.50" }
+      ]
+    },
+    {
+      "name_en": "Beers",
+      "name_de": "Biere",
+      "subtitle_en": "Drinks do not count towards the minimum order value",
+      "subtitle_de": "Getränke werden nicht auf den Mindestbestellwert angerechnet",
+      "dishes": [
+        { "name_en": "Paulaner Hell 0.5l", "name_de": "Paulaner Hell 0.5l", "description_en": "Alc. 5.5% vol.", "description_de": "Alk. 5.5% vol.", "price": "€3.34" },
+        { "name_en": "Paulaner wheat beer crystal clear", "name_de": "Paulaner Weizenbier kristallklar", "description_en": "Alc. 5.3% vol.", "description_de": "Alk. 5.3% vol.", "price": "€3.74" },
+        { "name_en": "Indian beer 0.5l", "name_de": "Indisches Bier 0.5l", "description_en": null, "description_de": null, "price": "€3.34" },
+        { "name_en": "Beer non-alcoholic 0.5l", "name_de": "Bier alkoholfrei 0.5l", "description_en": "Alc. 0.5% vol.", "description_de": "Alk. 0.5% vol.", "price": "€3.34" },
+        { "name_en": "White beer non-alcoholic 0.33l", "name_de": "Weißbier alkoholfrei 0.33l", "description_en": null, "description_de": null, "price": "€3.74" }
+      ]
+    },
+    {
+      "name_en": "Wines & sparkling wine",
+      "name_de": "Weine & Sekt",
+      "subtitle_en": "Drinks do not count towards the minimum order value",
+      "subtitle_de": "Getränke werden nicht auf den Mindestbestellwert angerechnet",
+      "dishes": [
+        { "name_en": "Chardonnay 0.75l", "name_de": "Chardonnay 0.75l", "description_en": "Alc. 12.5% vol.", "description_de": "Alk. 12.5% vol.", "price": "€12.50" },
+        { "name_en": "Pino Grigio 0.75l", "name_de": "Pino Grigio 0.75l", "description_en": "Alc. 12.5% vol.", "description_de": "Alk. 12.5% vol.", "price": "€12.50" },
+        { "name_en": "Indian white wine 0.75l", "name_de": "Indischer Weißwein 0.75l", "description_en": "Alc. 13% vol.", "description_de": "Alk. 13% vol.", "price": "€15.00" },
+        { "name_en": "Merlot 0.75l", "name_de": "Merlot 0.75l", "description_en": "Alc. 13.5% vol.", "description_de": "Alk. 13.5% vol.", "price": "€12.50" },
+        { "name_en": "Cabernet Sauvignon 0.75l", "name_de": "Cabernet Sauvignon 0.75l", "description_en": "Alc. 12.5% vol.", "description_de": "Alk. 12.5% vol.", "price": "€12.50" },
+        { "name_en": "Indian red wine 0.75l", "name_de": "Indischer Rotwein 0.75l", "description_en": "Alc. 13.5% vol.", "description_de": "Alk. 13.5% vol.", "price": "€15.00" },
+        { "name_en": "Prosecco 0.75l", "name_de": "Prosecco 0.75l", "description_en": "Alc. 9.5% vol.", "description_de": "Alk. 9.5% vol.", "price": "€10.90" }
+      ]
+    }
+  ]
+}
