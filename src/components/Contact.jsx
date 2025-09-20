@@ -1,32 +1,35 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-// Helper components for icons to keep the code clean
+// Helper components for icons
 const LocationIcon = () => (
-  <svg className="w-6 h-6 mr-4 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+  <svg className="w-6 h-6 mr-4 text-primary-light flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
 );
 const PhoneIcon = () => (
-  <svg className="w-6 h-6 mr-4 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+  <svg className="w-6 h-6 mr-4 text-primary-light flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
 );
 const ClockIcon = () => (
-  <svg className="w-6 h-6 mr-4 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+  <svg className="w-6 h-6 mr-4 text-primary-light flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
 );
 
 const Contact = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <section id="contact" className="py-24 bg-cream" ref={ref}>
-      <div className="container mx-auto px-6 md:px-0">
+    // ✅ Reduced vertical padding for mobile
+    <section id="contact" className="py-16 lg:py-24 bg-cream" ref={ref}>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-serif text-maroon text-center mb-16"
+          // ✅ Made heading smaller on mobile
+          className="text-4xl lg:text-5xl font-serif text-maroon text-center mb-12 lg:mb-16"
         >
           Contact & Location
         </motion.h2>
 
+        {/* This grid correctly stacks on mobile (grid-cols-1) and goes to two columns on large screens (lg:grid-cols-2) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           <motion.div
@@ -36,10 +39,11 @@ const Contact = () => {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-3xl font-serif text-maroon mb-4">Visit Us</h3>
+              {/* ✅ Made subheading smaller on mobile */}
+              <h3 className="text-2xl lg:text-3xl font-serif text-maroon mb-4">Visit Us</h3>
               <div className="flex items-start">
                 <LocationIcon />
-                <p className="text-lg text-text-dark">
+                <p className="text-base lg:text-lg text-text-dark">
                   Kemptener Str. 16<br />
                   87629 Füssen, DE
                 </p>
@@ -47,20 +51,22 @@ const Contact = () => {
             </div>
 
             <div>
-              <h3 className="text-3xl font-serif text-maroon mb-4">Get in Touch</h3>
+              {/* ✅ Made subheading smaller on mobile */}
+              <h3 className="text-2xl lg:text-3xl font-serif text-maroon mb-4">Get in Touch</h3>
               <div className="flex items-center">
                 <PhoneIcon />
-                <a href="tel:+4983628836943" className="text-lg text-text-dark hover:text-primary-light transition-colors">
+                <a href="tel:+4983628836943" className="text-base lg:text-lg text-text-dark hover:text-primary-light transition-colors">
                   +49 8362-8836943
                 </a>
               </div>
             </div>
             
             <div>
-              <h3 className="text-3xl font-serif text-maroon mb-4">Hours</h3>
+              {/* ✅ Made subheading smaller on mobile */}
+              <h3 className="text-2xl lg:text-3xl font-serif text-maroon mb-4">Hours</h3>
               <div className="flex items-start">
                 <ClockIcon />
-                <div className="text-lg text-text-dark">
+                <div className="text-base lg:text-lg text-text-dark">
                   <p><b>Mon - Fri:</b> 12:00 - 21:00</p>
                   <p><b>Sat:</b> 12:00 - 22:00</p>
                   <p><b>Sun:</b> 12:00 - 21:00</p>
@@ -73,9 +79,9 @@ const Contact = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="rounded-xl shadow-2xl overflow-hidden h-96 lg:h-full"
+            // ✅ Set a minimum height for mobile view to ensure map is visible
+            className="rounded-xl shadow-2xl overflow-hidden h-80 lg:h-full min-h-[300px]"
           >
-            {/* ✅ CORRECTED with the final location provided */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.9789017931244!2d10.69216536157545!3d47.56819891963581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cf5e453074bd5%3A0xbe5ad2fcc1e1c0ae!2sRestaurant%20Annapurna!5e0!3m2!1sen!2sin!4v1758354145435!5m2!1sen!2sin"
               width="100%"

@@ -21,27 +21,28 @@ const Hero = () => {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 p-12 rounded-lg"
+        // ✅ Reduced padding on mobile
+        className="relative z-10 p-6 md:p-12 rounded-lg"
       >
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeOut" }} // ✅ FASTER DURATION
-          // ✅ LARGER FONT SIZE & WIDER SPACING
-          className="text-8xl font-playfair text-cream font-extrabold drop-shadow-lg tracking-wide"
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          // ✅ Made font smaller on mobile (text-6xl) and larger on desktop (md:text-8xl)
+          className="text-6xl md:text-8xl font-playfair text-cream drop-shadow-lg tracking-wide"
         >
           Annapurna
         </motion.h1>
 
-        <p className="my-6 text-3xl sm:text-4xl lg:text-5xl font-montserrat font-bold italic drop-shadow-lg leading-tight">
+        {/* ✅ Adjusted responsive font sizes for the tagline */}
+        <p className="my-6 text-2xl sm:text-3xl lg:text-5xl font-montserrat font-bold italic drop-shadow-lg leading-tight">
           {words.map((word, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              // ✅ FASTER ANIMATION DELAY
               transition={{ delay: i * 0.05 + 0.4, duration: 0.5, ease: "easeOut" }}
-              className="inline-block mr-3"
+              className="inline-block mr-2 md:mr-3" // Slightly less margin on mobile
             >
               {word}
             </motion.span>
@@ -52,16 +53,15 @@ const Hero = () => {
           to="/menu"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          // ✅ FASTER ANIMATION DELAY
           transition={{ duration: 0.5, delay: words.length * 0.05 + 0.6, ease: "easeOut" }}
           whileHover={{
-            scale: 1.05, // Reduced scale a bit for a subtler effect
+            scale: 1.05,
             boxShadow: '0 0 30px rgba(255,215,0,0.8)',
             transition: { duration: 0.3 }
           }}
           whileTap={{ scale: 0.95 }}
-          // ✅ LARGER PADDING & FONT SIZE
-          className="inline-block mt-10 bg-gold text-white px-12 py-4 rounded-full text-xl font-bold transition-all duration-300"
+          // ✅ Made button smaller on mobile, then larger on medium screens and up
+          className="inline-block mt-8 md:mt-10 bg-gold text-white px-8 py-3 text-lg md:px-12 md:py-4 md:text-xl rounded-full font-bold transition-all duration-300"
         >
           {t('hero.button')}
         </MotionLink>
