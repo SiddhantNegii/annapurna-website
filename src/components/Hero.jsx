@@ -10,6 +10,32 @@ const Hero = () => {
   const y = useTransform(scrollY, [0, 500], [0, 200]);
   const words = t('hero.tagline').split(" ");
 
+  // Framer Motion variants for the Diwali text animation
+  const diwaliVariants = {
+    initial: { scale: 0.5, opacity: 0, rotate: -5 },
+    animate: {
+      scale: 1,
+      opacity: 1,
+      rotate: 0,
+      transition: {
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+        delay: 0.2, // Make it appear quickly
+      }
+    },
+    // Add a subtle flash/pulse effect
+    pulse: {
+      scale: [1, 1.05, 1],
+      transition: {
+        duration: 1.5,
+        repeat: Infinity,
+        repeatType: "loop",
+        ease: "easeInOut",
+      }
+    }
+  };
+
   return (
     <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
       <motion.div
@@ -24,6 +50,22 @@ const Hero = () => {
         // ✅ Reduced padding on mobile
         className="relative z-10 p-6 md:p-12 rounded-lg"
       >
+        {/*
+          // --- NEW DIWALI GREETING ---
+        */}
+        <motion.p
+          variants={diwaliVariants}
+          initial="initial"
+          animate={["animate", "pulse"]} // Run both the entry animation and the pulse effect
+          // ✅ Style the text to be festive (Gold/Yellow, bold, slightly smaller on mobile)
+          className="text-3xl md:text-5xl font-playfair font-extrabold text-gold drop-shadow-xl mb-4 md:mb-6 tracking-wider"
+        >
+          🪔 Happy Diwali! 🪔
+        </motion.p>
+        {/*
+          // --- END NEW DIWALI GREETING ---
+        */}
+
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
